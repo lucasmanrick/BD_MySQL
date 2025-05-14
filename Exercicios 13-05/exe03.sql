@@ -2,7 +2,6 @@
 create database db_escola;
 
 use db_escola;
-
 create table tb_estudantes (
 	id bigint auto_increment primary key not null,
     nome varchar(255),
